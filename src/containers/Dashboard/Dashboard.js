@@ -34,7 +34,7 @@ export const Dashboard = (props) => {
   };
 
   const handleShift = () => {
-    const newLayoutName = layout === "default" ? "shift" : "default";
+    const newLayoutName = layoutName === "default" ? "shift" : "default";
     setLayoutName(newLayoutName);
   };
 
@@ -62,6 +62,8 @@ export const Dashboard = (props) => {
   const hideKeyboard = () => {
     setVisible(false)
   }
+
+  console.log(layoutName)
 
   return (
     <div className="App">

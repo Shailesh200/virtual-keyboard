@@ -17,6 +17,9 @@ export default function App() {
       <div className="wrapper">
         <Dashboard input={input} setInput={setInput} setOnEnterClicked={setOnEnterClicked} />
       </div>
+      <div className="footer">
+        <h4>This project was created by Shailesh. Visit the repo: <a href="https://github.com/Shailesh200/virtual-keyboard">Github</a></h4>
+      </div>
     </div>
   );
 

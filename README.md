@@ -1,6 +1,5 @@
-# Getting Started with CommerceIQ: Assignment - Virtual Keyboard
+# Getting Started with Virtual Keyboard
 
-### This project is solely used for the submission of assignment for CommerceIQ for Frontend Developer profile.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

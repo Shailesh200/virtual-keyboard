@@ -1,0 +1,43 @@
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 2em;
+    align-items: center;
+}
+
+.reset {
+    background-color: #1abc9c; /* Green */
+    height: 2em;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+input {
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.simple-keyboard {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 850px;
+}
